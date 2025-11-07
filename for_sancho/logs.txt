@@ -1,0 +1,65 @@
+2025-11-07 12:41:59,403 - INFO - 
+============================================================
+2025-11-07 12:41:59,403 - INFO - ПРИМЕР 1: Запрос к API с JSON ответом
+2025-11-07 12:41:59,403 - INFO - ============================================================
+2025-11-07 12:41:59,403 - INFO - ============================================================
+2025-11-07 12:41:59,403 - INFO - НАЧАЛО HTTP ЗАПРОСА
+2025-11-07 12:41:59,403 - INFO - ============================================================
+2025-11-07 12:41:59,403 - INFO - 📤 Отправляем GET запрос на: https://dog.ceo/api/breeds/image/random
+2025-11-07 12:41:59,403 - INFO - ⏳ Выполняем запрос...
+2025-11-07 12:41:59,848 - INFO - ============================================================
+2025-11-07 12:41:59,848 - INFO - ПОЛУЧЕН ОТВЕТ ОТ СЕРВЕРА
+2025-11-07 12:41:59,848 - INFO - ============================================================
+2025-11-07 12:41:59,848 - INFO - ✅ Статус код ответа: 200
+2025-11-07 12:41:59,848 - INFO - 💡 Статус 200: Запрос успешно выполнен (OK)
+2025-11-07 12:41:59,848 - INFO - 🌐 Финальный URL: https://dog.ceo/api/breeds/image/random
+2025-11-07 12:41:59,848 - INFO - 🔄 Редиректов не было
+2025-11-07 12:41:59,848 - INFO - 📋 Заголовки ответа: {'Date': 'Fri, 07 Nov 2025 07:42:00 GMT', 'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'X-Powered-By': 'PHP/8.3.19', 'Cache-Control': 'no-cache, private', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Via': '1.1 varnish (Varnish/6.3), 1.1 varnish (Varnish/6.3)', 'X-Cache-Hits': '0', 'X-Cache': 'MISS', 'Accept-Ranges': 'bytes', 'Age': '0', 'Vary': 'Accept-Encoding', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'cf-cache-status': 'DYNAMIC', 'Speculation-Rules': '"/cdn-cgi/speculation"', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IlGJQlczLMEHCBvO9GFOb5jls2O%2BopS4eeORxIqsVPV8XlsUgEBXXgVrE1T4gwqRMUA16qoWpYrA8fFABZ%2Bju1N4CeG32kg%3D"}]}', 'CF-RAY': '99ab31030d8ab9db-ARN', 'alt-svc': 'h3=":443"; ma=86400'}
+2025-11-07 12:41:59,848 - INFO - 📄 Тип контента: application/json
+2025-11-07 12:41:59,848 - INFO - 💡 Ответ в формате JSON - можно парсить
+2025-11-07 12:41:59,848 - INFO - 📦 JSON данные: {'message': 'https://images.dog.ceo/breeds/coonhound/n02089078_3869.jpg', 'status': 'success'}
+2025-11-07 12:41:59,848 - INFO - ⏱️  Время выполнения запроса: 0:00:00.410467
+2025-11-07 12:41:59,848 - INFO - 🔤 Кодировка ответа: utf-8
+2025-11-07 12:41:59,849 - INFO - 🍪 Cookies: <RequestsCookieJar[]>
+2025-11-07 12:41:59,849 - INFO - 🔄 Это редирект: False
+2025-11-07 12:41:59,849 - INFO - 🔄 Это постоянный редирект: False
+2025-11-07 12:41:59,849 - INFO - ✅ Запрос выполнен успешно!
+2025-11-07 12:41:59,849 - INFO - ============================================================
+2025-11-07 12:41:59,849 - INFO - КОНЕЦ ОБРАБОТКИ ЗАПРОСА
+2025-11-07 12:41:59,849 - INFO - ============================================================
+2025-11-07 12:41:59,849 - INFO - 
+============================================================
+2025-11-07 12:41:59,849 - INFO - ПРИМЕР 2: Запрос к Google с параметрами поиска
+2025-11-07 12:41:59,849 - INFO - ============================================================
+2025-11-07 12:41:59,849 - INFO - ============================================================
+2025-11-07 12:41:59,849 - INFO - НАЧАЛО HTTP ЗАПРОСА
+2025-11-07 12:41:59,849 - INFO - ============================================================
+2025-11-07 12:41:59,849 - INFO - 📤 Отправляем GET запрос на: https://www.google.com/search
+2025-11-07 12:41:59,849 - INFO - 📋 Заголовки запроса: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+2025-11-07 12:41:59,850 - INFO - 🔍 Параметры запроса (query string): {'q': 'python'}
+2025-11-07 12:41:59,850 - INFO - 💡 ВАЖНО: Для GET запросов используем 'params', а не 'data'
+2025-11-07 12:41:59,850 - INFO - 💡 'params' добавляет параметры в URL (?key=value)
+2025-11-07 12:41:59,850 - INFO - 💡 'data' используется для POST запросов (тело запроса)
+2025-11-07 12:41:59,850 - INFO - ⏳ Выполняем запрос...
+2025-11-07 12:42:02,680 - INFO - ============================================================
+2025-11-07 12:42:02,680 - INFO - ПОЛУЧЕН ОТВЕТ ОТ СЕРВЕРА
+2025-11-07 12:42:02,680 - INFO - ============================================================
+2025-11-07 12:42:02,680 - INFO - ✅ Статус код ответа: 200
+2025-11-07 12:42:02,680 - INFO - 💡 Статус 200: Запрос успешно выполнен (OK)
+2025-11-07 12:42:02,681 - INFO - 🌐 Финальный URL: https://www.google.com/search?q=python
+2025-11-07 12:42:02,681 - INFO - 💡 URL изменился из-за редиректа
+2025-11-07 12:42:02,681 - INFO - 🔄 Редиректов не было
+2025-11-07 12:42:02,681 - INFO - 📋 Заголовки ответа: {'Content-Type': 'text/html; charset=UTF-8', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Security-Policy': "object-src 'none';base-uri 'self';script-src 'nonce-LTghlctPrRUriHgIN-NLbQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/cdt1", 'Cross-Origin-Opener-Policy': 'same-origin-allow-popups; report-to="gws"', 'Report-To': '{"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/cdt1"}]}', 'Accept-CH': 'Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64', 'Permissions-Policy': 'unload=()', 'P3P': 'CP="This is not a P3P policy! See g.co/p3phelp for more info."', 'Content-Encoding': 'gzip', 'Date': 'Fri, 07 Nov 2025 07:42:01 GMT', 'Server': 'gws', 'X-XSS-Protection': '0', 'X-Frame-Options': 'SAMEORIGIN', 'Expires': 'Fri, 07 Nov 2025 07:42:01 GMT', 'Cache-Control': 'private', 'Set-Cookie': 'AEC=AaJma5uD1CcF7i3QDOOQ9gSpfwsn2EnsWjufYXMenZsGatmnoGn0LFW57A; expires=Wed, 06-May-2026 07:42:01 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=526=DP4GQYF9fVx6k3W_nN2QcxRpzw_aS0ZyBmaI4eRHz7Qw_5hYl8DdYWb9RBBpsa0HjAM_nAeZBkwdW0Ju-d64ol_CajlQEr2UF2btN2MPhGdL_4uyfIPxedgEQe_gcDXS5VhPlzhNnRKFW1aowfdQD1zzxp-LCnPBK-2D09azTSclGfJ4uJQWfl4g7qoJcflYq4_bXF7iI14JjRhkDg; expires=Sat, 09-May-2026 07:42:01 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+2025-11-07 12:42:02,681 - INFO - 📄 Тип контента: text/html; charset=UTF-8
+2025-11-07 12:42:02,681 - INFO - 💡 Ответ НЕ в формате JSON (вероятно HTML/текст)
+2025-11-07 12:42:02,681 - INFO - 💡 Не пытаемся парсить как JSON, чтобы избежать ошибки
+2025-11-07 12:42:02,681 - INFO - 📝 Текст ответа (первые 500 символов): <!DOCTYPE html><html lang="kk"><head><title>Google Search</title><style>body{background-color:var(--xhUGwc)}</style><script nonce="LTghlctPrRUriHgIN-NLbQ">window.google = window.google || {};window.google.c = window.google.c || {cap:0};</script></head><body><noscript><style>table,div,span,p{display:none}</style><meta content="0;url=/httpservice/retry/enablejs?sei=yaINaeGdJbba5OUP6Kb_sAw" http-equiv="refresh"><div style="display:block">Бірнеше секунд ішінде бағытталмасаңыз, <a href="/httpservice/
+2025-11-07 12:42:02,681 - INFO - ⏱️  Время выполнения запроса: 0:00:01.877723
+2025-11-07 12:42:02,681 - INFO - 🔤 Кодировка ответа: UTF-8
+2025-11-07 12:42:02,681 - INFO - 🍪 Cookies: <RequestsCookieJar[<Cookie AEC=AaJma5uD1CcF7i3QDOOQ9gSpfwsn2EnsWjufYXMenZsGatmnoGn0LFW57A for .google.com/>, <Cookie NID=526=DP4GQYF9fVx6k3W_nN2QcxRpzw_aS0ZyBmaI4eRHz7Qw_5hYl8DdYWb9RBBpsa0HjAM_nAeZBkwdW0Ju-d64ol_CajlQEr2UF2btN2MPhGdL_4uyfIPxedgEQe_gcDXS5VhPlzhNnRKFW1aowfdQD1zzxp-LCnPBK-2D09azTSclGfJ4uJQWfl4g7qoJcflYq4_bXF7iI14JjRhkDg for .google.com/>]>
+2025-11-07 12:42:02,681 - INFO - 🔄 Это редирект: False
+2025-11-07 12:42:02,681 - INFO - 🔄 Это постоянный редирект: False
+2025-11-07 12:42:02,682 - INFO - ✅ Запрос выполнен успешно!
+2025-11-07 12:42:02,682 - INFO - ============================================================
+2025-11-07 12:42:02,682 - INFO - КОНЕЦ ОБРАБОТКИ ЗАПРОСА
+2025-11-07 12:42:02,682 - INFO - ============================================================
